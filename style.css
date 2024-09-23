@@ -26,3 +26,25 @@ button{
 #inner{
     font-size: 10px;
 }
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+button{
+   background-color: #f08804;
+}
+a {
+    margin-right: 200px;
+    color: white;
+    text-decoration: none;
+}
