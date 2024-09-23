@@ -9,9 +9,11 @@
 .heading{
     color: red;
 }
-button{
+#btn{
     background-color: green;
 }
+   
+
 .title{
     text-align: center;
     text-decoration: underline;
@@ -40,8 +42,8 @@ button{
     color: #f08804;
     font-size: 25px;
 }
-button{
-   background-color: #f08804;
+.navbar button{
+    background-color: #f08804;
 }
 a {
     margin-right: 200px;
