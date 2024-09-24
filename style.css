@@ -50,3 +50,14 @@ a {
     color: white;
     text-decoration: none;
 }
+.contentbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: #f08804;
+}
