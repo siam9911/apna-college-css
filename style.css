@@ -55,23 +55,79 @@ a {
     width: 100px;
     border: 2px solid black;
     display: inline-block;
-    
-}
-#contentarea {
-    height: 500px;
 }
 footer{
     text-align: center;
     background-color: black;
     color: #f08804;
 }
-#box1{
+#nature {
     height: 100px;
     width: 100px;
-    background-color: green;
+    background-image: url(cat.jpg);
+    background-size:contain ;
+    position: fixed;
+    right: 0px;
+    top: 50px;
 }
-#box2{
+#container {
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+.flexnavbar {
+    background-color: rgb(94, 79, 78);
+     list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.flexouter {
+    height: 300px;
+    width: 300px;
+    background-color: #f08804;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexinner {
     height: 100px;
-    width: 30%;
-    background-color: yellow;
+    width: 100px;
+    background-color: black;
+}
+.media {
+    height: 350px;
+    width: 310px;
+    background-color: bisque;
+}
+@media (min-width:300px) {
+    .media {
+        background-color: aqua;
+    }
+}@media (min-width: 300px) and (max-width: 400px) {
+    .media {
+        background-color: rebeccapurple;
+    }
+}
+@media (min-width: 401px) and (max-width: 600px) {
+    .media {
+        background-color: red;
+    }
+}
+.loader{
+    height: 100px;
+    width: 100px;
+    border: 20px solid black;
+    border-top: 20px solid brown;
+    border-radius: 50%;
+   animation: loader 3s ease-in 0s infinite normal ;
+}
+ 
+@keyframes loader{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
