@@ -55,9 +55,23 @@ a {
     width: 100px;
     border: 2px solid black;
     display: inline-block;
+    
+}
+#contentarea {
+    height: 500px;
 }
 footer{
     text-align: center;
     background-color: black;
     color: #f08804;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+#box2{
+    height: 100px;
+    width: 30%;
+    background-color: yellow;
 }
